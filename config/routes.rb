@@ -5,5 +5,5 @@ Rails.application.routes.draw do
 
   get 'time/now' => 'time#time_now'
 
-  get 'introduce/:name/and/:name2' => 'welcome#introduce'
+  get 'introduce/:name/and/:name2' => 'introduction#introduce'
 end
